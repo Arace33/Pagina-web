@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold 20px verdana, sans-serif;
+} 
+
+h2 {
+    font: bold 14px verdana, sans-serif;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup {
+    display: block;
+}
+
+body {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#agrupar {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#cabecera {
+    background: #73084E;
+    padding: 30px 15px;
+    height: 100px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+#menu {
+    background: #0B3D40;
+    box-sizing: border-box;
+    border-radius: 10px 0;
+    margin-top: 5px;
+}
+#menu li {
+	display: inline-block;
+	list-style: none;
+	border-right: 5px solid #FFFFFF;
+	padding: 10px 0;
+	margin: 0;
+	border-radius: 10px 0;
+}
+#menu ul li:last-child {
+    border-right: none;
+}
+#menu ul li a {
+	text-decoration: none;
+    color: #FFFFFF;
+    font: bold 20px verdana, sans-serif;
+    padding: 10px 15px;
+}
+#menu ul > li:hover,
+#enu ul > li:focus,
+#menu ul > li > a:hover,
+#enu ul > li > a:focus {
+    color: #04B7BF;
+}
+
+
+#seccion {
+    float: left;
+    width: 770px;
+    height: 450px;
+    padding: 10px;
+    margin: 5px 10px 10px 0;
+    box-sizing: border-box;
+    overflow: auto;
+
+    background: rgba(233,246,253,0.7);
+} 
+
+article {
+	border: 1px solid #04B7BF;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+} 
+article footer {
+    text-align: right;
+}
+time {
+    color: #999999;
+}
+figcaption {
+    font: italic 14px verdana, sans-serif;
+}
+
+
+#columna {
+    float: right;
+    width: 240px;
+    height: 450px;
+    margin: 5px 0px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    overflow: auto;
+
+    background: rgba(233,246,253,0.7);
+}
+
+#columna fieldset {
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 3px double #04B7BF;
+	border-radius: 5px 0;
+}
+#columna fieldset legend {
+	border: 1px solid #04B7BF;
+	padding: 3px 15px;
+	border-radius: 5px;
+	margin: 0;
+}
+
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #73084E;
+    color: #FFFFFF;
+}
